@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Naresh</span>Maskuri</h1>
+            <p>
+                I'm a Web Designer and Developer who have a passion for creating beautiful and user-focused websites. 
+                I bring sleek responsive layouts to life with the power of HTML / CSS, and add dynamic interactivity with JavaScript.
+                I enjoy interpreting concepts into clear, compelling, digital interfaces that not only look great but provide effortless user experience.
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="https://www.linkedin.com/in/maskuri-naresh/" class="btn" target="_blank">Visit LinkedIn</a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Software Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-lock'></i>
+                    <h3> Cybersecurity</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-data'></i>
+                    <h3>Database &SQL Development</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="portfolio.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="visuals.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                My name is Naresh, and I’m currently pursuing my B.Tech in Computer Science and Engineering(CSC). I come from Chandanagar, 
+                and I have a deep interest in web development and design.
+                </p>
+            <p>
+            Over the past year, I’ve worked on several personal projects using HTML, CSS,  including JavaScript . I’ve also explored frameworks like React and improved my Git/GitHub skills through collaborative college projects.
+            I’m now looking to apply my skills in a real-world environment where I can contribute to meaningful web experiences and grow as a frontend developer.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I’m passionate about web development—where creativity meets logic. 
+                   I enjoy building clean, responsive, and interactive websites using HTML, CSS, and JavaScript.
+                   I’m always eager to explore new tools, frameworks, and trends in both frontend and backend development. 
+                   For me, web development is a creative journey of continuous learning and problem-solving.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>software development</h3>
+                <p>I'm passionate about software development because it allows me to solve real-world problems with logic, structure, and creativity. 
+                   I enjoy designing reliable, efficient solutions that enhance user experience.
+                   From writing clean code to debugging complex issues, I find the development process both challenging and rewarding. 
+                   I'm always eager to learn new tools and languages to grow as a developer and contribute to impactful projects.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Video Editor</h3>
+                <p>I'm passionate about database management and SQL development, especially working with structured data to ensure accuracy, performance, and security.
+                   I enjoy writing efficient queries, optimizing data access, and designing logical schemas. 
+                   I'm also eager to explore advanced concepts like normalization and indexing using tools like MySQL and Oracle. </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="pf1.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="plants.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Plants</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="movies.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Movies</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="pf2.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="restaurent.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>restaurent</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ecom.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Ecom</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading"><span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="test1.jpg" alt="">
+                        <h3>Meera Sharma</h3>
+                        <p>"Working with Naresh on our final-year project was an absolute pleasure. 
+                            They showed excellent problem-solving skills and always delivered work on time. 
+                            Their dedication and attention to detail made a real difference to the success of the project."
+                            — Prof. Meera Sharma, Project Guide, Sikkim Manipal University.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="test-2.jpg" alt="">
+                        <h3>Rahul Verma</h3>
+                        <p>Naresh built a clean, mobile-friendly website for my startup, and I couldn’t be happier with the results.
+                             Communication was clear, deadlines were met, and the final design was exactly what I needed. 
+                             I would definitely recommend their services."
+                             — Rahul Verma, Founder, VermaTech</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="test-3.jpg" alt="">
+                        <h3>Sneha Patil</h3>
+                        <p>"It was great collaborating with Naresh during our web development internship.
+                             They are not only skilled in HTML, CSS, and JavaScript but also a great team player. 
+                             Always ready to help and share ideas that improved our project quality."
+                            — Sneha Patil, Web Developer Intern</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
